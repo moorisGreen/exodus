@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "complete:singularitynugget"
+    },
+    "1": {
+      "item": "complete:singularitynugget"
+    },
+    "2": {
+      "item": "complete:singularitynugget"
+    },
+    "3": {
+      "item": "complete:singularitynugget"
+    },
+    "4": {
+      "item": "complete:singularitynugget"
+    },
+    "5": {
+      "item": "complete:singularitynugget"
+    },
+    "6": {
+      "item": "complete:singularitynugget"
+    },
+    "7": {
+      "item": "complete:singularitynugget"
+    },
+    "8": {
+      "item": "complete:singularitynugget"
+    }
+  },
+  "result": {
+    "item": "complete:singularity_ingot",
+    "count": 1
+  }
+}

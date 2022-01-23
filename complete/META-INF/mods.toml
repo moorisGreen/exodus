@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Public Domain"
+
+[[mods]]
+modId="complete"
+version="1.0.0"
+displayName="complete"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Green"
+description='''
+a mod.
+'''
+
+[[dependencies.complete]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.complete]]
+    modId="pehkui"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.complete]]
+    modId="  compactcrafting"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
