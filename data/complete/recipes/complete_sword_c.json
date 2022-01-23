@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "complete:complete_sword"
+    }
+  ],
+  "result": {
+    "item": "complete:complete_sword",
+    "count": 1
+  }
+}

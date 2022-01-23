@@ -1,0 +1,26 @@
+{
+  "type": "compactcrafting:miniaturization",
+  [["recipeSize": 0,]]
+  "layers": [
+	  	{
+		  "type": "compactcrafting:filled",
+		  "component": "C"
+		}
+  ],
+  "catalyst": {
+  	"id": "minecraft:diamond",
+    "Count": 1
+    },
+  "components": {
+  	"C": {
+    "type": "compactcrafting:block",
+    "block": "minecraft:coal_block"
+    }
+  },
+  "outputs": [
+  	{
+	  "id": "complete:black_hole",
+	  "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "type": "compactcrafting:miniaturization",
+  "recipeSize": 9,
+  "layers": [
+    {
+      "type": "compactcrafting:filled",
+      "component": "C"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "C"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "C"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "C"
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "S", "R", "C", "C", "C", "C", "C", "C"],
+		["C", "S", "S", "S", "S", "S", "C", "C", "C"],
+        ["C", "C", "S", "R", "R", "S", "S", "C", "C"],
+		["C", "C", "S", "R", "R", "S", "S", "C", "C"],
+        ["C", "C", "S", "R", "R", "S", "S", "C", "C"],
+		["C", "S", "S", "S", "S", "S", "C", "C", "C"],
+        ["C", "S", "R", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"]
+      ]
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "C"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "C"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "C"
+    },
+    {
+      "type": "compactcrafting:filled",
+      "component": "C"
+    }
+  ],
+
+  "catalyst": {
+    "id": "minecraft:netherite_chestplate",
+    "Count": 1
+  },
+
+  "components": {
+	"C": {
+      "type": "compactcrafting:block",
+      "block": "complete:complete_block"
+    },
+	"S": {
+      "type": "compactcrafting:block",
+      "block": "complete:singularity_block"
+    },
+	"R": {
+      "type": "compactcrafting:block",
+      "block": "complete:red"
+    }
+  },
+
+  "outputs": [
+    {
+      "id": "complete:complete_armor_chestplate",
+      "Count": 1
+    }
+  ]
+}

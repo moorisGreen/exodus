@@ -1,0 +1,129 @@
+{
+  "type": "compactcrafting:miniaturization",
+  "recipeSize": 9,
+  "layers": [
+    {
+      "type": "compactcrafting:filled",
+      "component": "B"
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+		["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+		["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+		["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+		["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+		["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+		["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+		["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+		["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+		["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "C", "C", "C", "C", "C", "C", "C", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "B"
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+		["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+		["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+		["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+		["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+		["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+		["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+		["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+		["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+		["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "H", "H", "H", "H", "H", "H", "H", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+    {
+      "type": "compactcrafting:filled",
+      "component": "B"
+    }
+  ],
+
+  "catalyst": {
+    "id": "complete:black_hole",
+    "Count": 1
+  },
+
+  "components": {
+    "H": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:hopper"
+    },
+	"B": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:black_concrete"
+    },
+	"C": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:chest"
+    }
+  },
+
+  "outputs": [
+    {
+      "id": "complete:black_block",
+      "Count": 1
+    }
+  ]
+}
