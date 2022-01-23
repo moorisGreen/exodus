@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "complete:blocks/y",
+    "up": "complete:blocks/y",
+    "north": "complete:blocks/y",
+    "east": "complete:blocks/y",
+    "south": "complete:blocks/y",
+    "west": "complete:blocks/y",
+    "particle": "complete:blocks/y"
+  }
+}
