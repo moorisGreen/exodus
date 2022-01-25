@@ -28,7 +28,7 @@ a mod.
     ordering="NONE"
     side="BOTH"
 [[dependencies.complete]]
-    modId="  compactcrafting"
+    modId="compactcrafting"
     mandatory=true
     versionRange="[0,)"
     ordering="NONE"
