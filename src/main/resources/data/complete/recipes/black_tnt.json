@@ -1,0 +1,167 @@
+{
+  "type": "compactcrafting:miniaturization",
+  "recipeSize": 9,
+  "layers": [
+    {
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "G", "B", "G", "B", "G", "B", "G", "B"],
+		["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "G", "B", "G", "B", "G", "B", "G", "B"],
+		["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "G", "B", "G", "B", "G", "B", "G", "B"],
+		["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "G", "B", "G", "B", "G", "B", "G", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+		["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+        ["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+		["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+        ["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+		["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+        ["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+		["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+        ["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+		["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+        ["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+		["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+        ["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["W", "W", "W", "W", "W", "W", "W", "W", "W"],
+        ["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+		["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+        ["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+		["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+        ["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+		["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+        ["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+        ["W", "W", "W", "W", "W", "W", "W", "W", "W"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["W", "W", "W", "W", "B", "W", "W", "W", "W"],
+        ["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+		["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+        ["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+		["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+        ["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+		["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+        ["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+        ["W", "W", "W", "W", "B", "W", "W", "W", "W"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["W", "W", "W", "W", "W", "W", "W", "W", "W"],
+        ["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+		["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+        ["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+		["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+        ["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+		["W", "T", "N", "T", "N", "T", "N", "T", "W"],
+        ["W", "N", "T", "N", "T", "N", "T", "N", "W"],
+        ["W", "W", "W", "W", "W", "W", "W", "W", "W"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+		["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+        ["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+		["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+        ["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+		["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+        ["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+		["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+        ["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+		["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+        ["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+		["B", "T", "N", "T", "N", "T", "N", "T", "B"],
+        ["B", "N", "T", "N", "T", "N", "T", "N", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    },
+    {
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "G", "B", "G", "B", "G", "B", "G", "B"],
+		["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "G", "B", "G", "B", "G", "B", "G", "B"],
+		["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "G", "B", "G", "B", "G", "B", "G", "B"],
+		["B", "B", "B", "B", "B", "B", "B", "B", "B"],
+        ["B", "G", "B", "G", "B", "G", "B", "G", "B"],
+        ["B", "B", "B", "B", "B", "B", "B", "B", "B"]
+      ]
+    }
+  ],
+
+  "catalyst": {
+    "id": "minecraft:experience_bottle",
+    "Count": 1
+  },
+
+  "components": {
+    "T": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:tnt"
+    },
+	"N": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:netherite_block"
+    },
+	"B": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:black_concrete"
+    },
+	"W": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:white_concrete"
+    },
+	"G": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:light_gray_concrete"
+    }
+  },
+
+  "outputs": [
+    {
+      "id": "complete:black_tnt",
+      "Count": 1
+    }
+  ]
+}

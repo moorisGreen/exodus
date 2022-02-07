@@ -1,0 +1,141 @@
+{
+  "type": "compactcrafting:miniaturization",
+  "recipeSize": 9,
+  "layers": [
+    {
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "-", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "-", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "-", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "-", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "-", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "-", "-", "-", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "-", "-", "-", "-", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "-", "-", "-", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+		["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"],
+        ["C", "C", "C", "C", "C", "C", "C", "C", "C"]
+      ]
+    },
+    {
+      "type": "compactcrafting:filled",
+      "component": "C"
+    }
+  ],
+
+  "catalyst": {
+    "id": "complete:singularity_block",
+    "Count": 1
+  },
+
+  "components": {
+	"C": {
+      "type": "compactcrafting:block",
+      "block": "complete:complete_block"
+    }
+  },
+
+  "outputs": [
+    {
+      "id": "complete:complete_axe",
+      "Count": 1
+    }
+  ]
+}

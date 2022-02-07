@@ -1,0 +1,151 @@
+{
+  "type": "compactcrafting:miniaturization",
+  "recipeSize": 9,
+  "layers": [
+    {
+      "type": "compactcrafting:filled",
+      "component": "I"
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["I", "I", "R", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["R", "I", "I", "I", "I", "I", "I", "I", "R"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["I", "I", "R", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["R", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+		["R", "I", "-", "-", "-", "-", "-", "I", "R"],
+        ["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+		["R", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "R", "R", "R", "R", "R", "I", "I"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["I", "I", "R", "I", "I", "R", "R", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["R", "I", "-", "-", "-", "-", "-", "I", "I"],
+		["R", "I", "-", "-", "C", "-", "-", "I", "R"],
+        ["R", "I", "-", "-", "-", "-", "-", "I", "I"],
+		["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "R", "R", "R", "R", "R", "I", "I"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["I", "I", "R", "I", "R", "I", "R", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["I", "I", "-", "-", "C", "-", "-", "I", "I"],
+		["R", "I", "-", "C", "T", "C", "-", "I", "R"],
+        ["I", "I", "-", "-", "C", "-", "-", "I", "I"],
+		["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "R", "R", "R", "R", "R", "I", "I"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["I", "I", "R", "R", "I", "I", "R", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["R", "I", "-", "-", "-", "-", "-", "I", "I"],
+		["R", "I", "-", "-", "C", "-", "-", "I", "R"],
+        ["R", "I", "-", "-", "-", "-", "-", "I", "I"],
+		["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["I", "I", "I", "I", "I", "I", "R", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["R", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+		["R", "I", "-", "-", "-", "-", "-", "I", "R"],
+        ["I", "I", "-", "-", "-", "-", "-", "I", "I"],
+		["R", "I", "-", "-", "-", "-", "-", "I", "I"],
+        ["I", "I", "D", "D", "D", "D", "D", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"]
+      ]
+    },
+	{
+      "type": "compactcrafting:mixed",
+      "pattern": [
+        ["I", "I", "I", "I", "I", "I", "R", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["R", "I", "I", "I", "I", "I", "I", "I", "R"],
+        ["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+		["I", "I", "I", "I", "I", "I", "I", "I", "I"],
+        ["I", "I", "D", "D", "D", "D", "D", "I", "I"],
+        ["I", "I", "B", "I", "B", "I", "B", "I", "I"]
+      ]
+    },
+    {
+      "type": "compactcrafting:filled",
+      "component": "I"
+    }
+  ],
+
+  "catalyst": {
+    "id": "minecraft:nether_star",
+    "Count": 1
+  },
+
+  "components": {
+    "T": {
+      "type": "compactcrafting:block",
+      "block": "complete:black_tnt"
+    },
+	"I": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:iron_block"
+    },
+	"D": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:iron_trapdoor"
+    },
+	"R": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:redstone_block"
+    },
+	"B": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:iron_bars"
+    },
+	"C": {
+      "type": "compactcrafting:block",
+      "block": "minecraft:conduit"
+    }
+  },
+
+  "outputs": [
+    {
+      "id": "complete:collector",
+      "Count": 1
+    }
+  ]
+}
