@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exodus:exodus_chestplate"
+    }
+  ],
+  "result": {
+    "item": "exodus:exodus_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exodus:singularitypile"
+    },
+    "1": {
+      "item": "exodus:singularitypile"
+    },
+    "2": {
+      "item": "exodus:singularitypile"
+    },
+    "3": {
+      "item": "exodus:singularitypile"
+    },
+    "4": {
+      "item": "exodus:singularitypile"
+    },
+    "5": {
+      "item": "exodus:singularitypile"
+    },
+    "6": {
+      "item": "exodus:singularitypile"
+    },
+    "7": {
+      "item": "exodus:singularitypile"
+    },
+    "8": {
+      "item": "exodus:singularitypile"
+    }
+  },
+  "result": {
+    "item": "exodus:singularitydust",
+    "count": 1
+  }
+}

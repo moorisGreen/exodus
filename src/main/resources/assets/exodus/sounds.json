@@ -1,0 +1,12 @@
+{
+  "blackhole": {
+    "category": "master",
+    "subtitle": "subtitles.blackhole",
+    "sounds": [
+      {
+        "name": "exodus:blackhole_sound",
+        "stream": false
+      }
+    ]
+  }
+}

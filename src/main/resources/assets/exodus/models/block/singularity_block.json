@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exodus:blocks/sing",
+    "up": "exodus:blocks/sing",
+    "north": "exodus:blocks/sing",
+    "east": "exodus:blocks/sing",
+    "south": "exodus:blocks/sing",
+    "west": "exodus:blocks/sing",
+    "particle": "exodus:blocks/sing"
+  }
+}

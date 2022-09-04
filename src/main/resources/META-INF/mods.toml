@@ -3,17 +3,18 @@ loaderVersion="[36,)"
 license="Public Domain"
 
 [[mods]]
-modId="complete"
-version="1.0.0"
-displayName="complete"
+modId="exodus"
+version="1.1.0"
+displayName="Exodus"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 authors="Green"
 description='''
-a mod.
+a Mod with Op Stuff.
 '''
 
-[[dependencies.complete]]
+[[dependencies.exodus]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
@@ -21,13 +22,13 @@ a mod.
     side="BOTH"
 
 
-[[dependencies.complete]]
+[[dependencies.exodus]]
     modId="pehkui"
     mandatory=true
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.complete]]
+[[dependencies.exodus]]
     modId="compactcrafting"
     mandatory=true
     versionRange="[0,)"

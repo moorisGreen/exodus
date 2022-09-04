@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exodus:blocks/black_tnt_bottom",
+    "up": "exodus:blocks/black_tnt_bottom",
+    "north": "exodus:blocks/black_tnt_side",
+    "east": "exodus:blocks/black_tnt_side",
+    "south": "exodus:blocks/black_tnt_side",
+    "west": "exodus:blocks/black_tnt_side",
+    "particle": "exodus:blocks/black_tnt_bottom"
+  }
+}

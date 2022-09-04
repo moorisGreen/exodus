@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exodus:singularity_ingot"
+    },
+    "1": {
+      "item": "exodus:singularity_ingot"
+    },
+    "2": {
+      "item": "exodus:singularity_ingot"
+    },
+    "3": {
+      "item": "exodus:singularity_ingot"
+    },
+    "4": {
+      "item": "exodus:singularity_ingot"
+    },
+    "5": {
+      "item": "exodus:singularity_ingot"
+    },
+    "6": {
+      "item": "exodus:singularity_ingot"
+    },
+    "7": {
+      "item": "exodus:singularity_ingot"
+    },
+    "8": {
+      "item": "exodus:singularity_ingot"
+    }
+  },
+  "result": {
+    "item": "exodus:singularity_block",
+    "count": 1
+  }
+}

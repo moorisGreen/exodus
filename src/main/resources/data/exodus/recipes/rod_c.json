@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exodus:exodus_rod"
+    }
+  ],
+  "result": {
+    "item": "exodus:exodus_rod",
+    "count": 1
+  }
+}

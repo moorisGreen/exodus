@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exodus:exodus_leggings"
+    }
+  ],
+  "result": {
+    "item": "exodus:exodus_leggings",
+    "count": 1
+  }
+}

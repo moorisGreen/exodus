@@ -1,0 +1,89 @@
+{
+  "type": "compactcrafting:miniaturization",
+  "recipeSize": 9,
+  "layers": [
+    {
+      "type": "compactcrafting:filled",
+      "component": "S"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "L"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "B"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "M"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "P"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "Y"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "O"
+    },
+	{
+      "type": "compactcrafting:filled",
+      "component": "R"
+    },
+    {
+      "type": "compactcrafting:filled",
+      "component": "S"
+    }
+  ],
+
+  "catalyst": {
+    "id": "minecraft:enchanted_golden_apple",
+    "Count": 1
+  },
+
+  "components": {
+    "S": {
+      "type": "compactcrafting:block",
+      "block": "exodus:singularity_block"
+    },
+	"R": {
+      "type": "compactcrafting:block",
+      "block": "exodus:red"
+    },
+	"O": {
+      "type": "compactcrafting:block",
+      "block": "exodus:orange"
+    },
+	"Y": {
+      "type": "compactcrafting:block",
+      "block": "exodus:yellow"
+    },
+	"P": {
+      "type": "compactcrafting:block",
+      "block": "exodus:pink"
+    },
+	"M": {
+      "type": "compactcrafting:block",
+      "block": "exodus:magenta"
+    },
+	"B": {
+      "type": "compactcrafting:block",
+      "block": "exodus:blue"
+    },
+	"L": {
+      "type": "compactcrafting:block",
+      "block": "exodus:light_blue"
+    }
+  },
+
+  "outputs": [
+    {
+      "id": "exodus:exodus_ingot",
+      "Count": 1
+    }
+  ]
+}

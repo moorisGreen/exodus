@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exodus:singularitydust"
+    },
+    "1": {
+      "item": "exodus:singularitydust"
+    },
+    "2": {
+      "item": "exodus:singularitydust"
+    },
+    "3": {
+      "item": "exodus:singularitydust"
+    },
+    "4": {
+      "item": "exodus:singularitydust"
+    },
+    "5": {
+      "item": "exodus:singularitydust"
+    },
+    "6": {
+      "item": "exodus:singularitydust"
+    },
+    "7": {
+      "item": "exodus:singularitydust"
+    },
+    "8": {
+      "item": "exodus:singularitydust"
+    }
+  },
+  "result": {
+    "item": "exodus:dustnugget",
+    "count": 1
+  }
+}

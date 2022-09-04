@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 256,
+  "cookingtime": 1000000,
+  "ingredient": {
+    "item": "exodus:dustnugget"
+  },
+  "result": {
+    "item": "exodus:singularitynugget"
+  }
+}

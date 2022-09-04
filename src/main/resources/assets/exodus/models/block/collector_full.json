@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exodus:blocks/collector_bottom",
+    "up": "exodus:blocks/collector_top",
+    "north": "exodus:blocks/collector_full",
+    "east": "exodus:blocks/collector_side",
+    "south": "exodus:blocks/collector_side",
+    "west": "exodus:blocks/collector_side",
+    "particle": "exodus:blocks/collector_bottom"
+  }
+}
