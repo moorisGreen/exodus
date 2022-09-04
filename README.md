@@ -1,2 +1,2 @@
-# complete
-Mcreator Workspace files for My Complete Mod
+# Exodus
+Mcreator Workspace files for My Exodus Mod
