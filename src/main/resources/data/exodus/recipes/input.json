@@ -78,7 +78,7 @@
   "components": {
 	"B": {
       "type": "compactcrafting:block",
-      "block": "exodus:exodus_block"
+      "block": "exodus:rainbow_block"
     },
 	"T": {
       "type": "compactcrafting:block",

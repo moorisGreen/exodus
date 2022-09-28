@@ -54,7 +54,7 @@ public class CollectorGuiGuiWindow extends ContainerScreen<CollectorGuiGui.GuiCo
 		RenderSystem.color4f(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		double Time = ExodusModVariables.MapVariables.get(world).CollectorSp;
+		double Time = 84000;
 		double Progress = new Object() {
 			public double getValue(IWorld world, BlockPos pos, String tag) {
 				TileEntity tileEntity = world.getTileEntity(pos);

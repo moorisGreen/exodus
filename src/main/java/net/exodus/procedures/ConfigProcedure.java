@@ -1,10 +1,12 @@
 package net.exodus.procedures;
 
 import net.minecraftforge.fml.loading.FMLPaths;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.api.distmarker.Dist;
+
+import net.exodus.ExodusModVariables;
+import net.exodus.ExodusMod;
 
 import java.util.Map;
 import java.util.Collections;
@@ -19,72 +21,67 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.Gson;
 
 public class ConfigProcedure {
-	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 	private static class GlobalTrigger {
 		@SubscribeEvent
-		public static void init(FMLClientSetupEvent event) {
+		public static void init(FMLCommonSetupEvent event) {
 			executeProcedure(Collections.emptyMap());
 		}
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		File file = new File("");
-		com.google.gson.JsonObject json = new com.google.gson.JsonObject();
-		file = (File) new File((FMLPaths.GAMEDIR.get().toString() + "/config"), File.separator + "complete.config");
-		if (!file.exists()) {
-			try {
-				file.getParentFile().mkdirs();
-				file.createNewFile();
+		File config = new File("");
+		com.google.gson.JsonObject jsonobj = new com.google.gson.JsonObject();
+		config = (File) new File((FMLPaths.GAMEDIR.get().toString() + "/config"), File.separator + "exodus.config");
+		if (!config.exists()) {
+			NewConf(config, jsonobj);
+		} else {
+			{
+				try {
+					BufferedReader bufferedReader = new BufferedReader(new FileReader(config));
+					StringBuilder jsonstringbuilder = new StringBuilder();
+					String line;
+					while ((line = bufferedReader.readLine()) != null) {
+						jsonstringbuilder.append(line);
+					}
+					bufferedReader.close();
+					jsonobj = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+					ExodusModVariables.HoleSize = jsonobj.get("HoleSize").getAsDouble();
+					ExodusModVariables.HoleSpeed = jsonobj.get("HoleSpeed").getAsDouble();
+					ExodusModVariables.CollectorSpeed = jsonobj.get("CollectorSpeed").getAsDouble();
+
+				} catch (Exception e) {
+					e.printStackTrace();
+					NewConf(config, jsonobj);
+				}
+			}
+		}
+		ExodusMod.LOGGER.fatal(("" + ExodusModVariables.HoleSize));
+		ExodusMod.LOGGER.fatal(("" + ExodusModVariables.HoleSpeed));
+		ExodusMod.LOGGER.fatal(("" + ExodusModVariables.CollectorSpeed));
+	}
+	private static void NewConf(File config, com.google.gson.JsonObject jsonobj) {
+		try {
+				config.getParentFile().mkdirs();
+				config.createNewFile();
 			} catch (IOException exception) {
 				exception.printStackTrace();
 			}
-			json.addProperty("BlackHoleSpeed", 1000);
-			json.addProperty("BlackHoleSize", 200);
-			json.addProperty("ColletorSpeed", 86400);
+			jsonobj.addProperty("HoleSize", 200);
+			jsonobj.addProperty("HoleSpeed", 10000);
+			jsonobj.addProperty("CollectorSpeed", 84000);
 			{
 				Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
 				try {
-					FileWriter fileWriter = new FileWriter(file);
-					fileWriter.write(mainGSONBuilderVariable.toJson(json));
+					FileWriter fileWriter = new FileWriter(config);
+					fileWriter.write(mainGSONBuilderVariable.toJson(jsonobj));
 					fileWriter.close();
 				} catch (IOException exception) {
 					exception.printStackTrace();
 				}
 			}
-		}
-		{
-			try {
-				BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-				StringBuilder jsonstringbuilder = new StringBuilder();
-				String line;
-				while ((line = bufferedReader.readLine()) != null) {;
-					jsonstringbuilder.append(line);
-				}
-				bufferedReader.close();
-				json = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
-				if (json.get("BlackHoleSpeed").getAsDouble() <= 0) {
-					json.addProperty("BlackHoleSpeed", 1000);
-				}
-				if (json.get("BlackHoleSize").getAsDouble() <= 0) {
-					json.addProperty("BlackHoleSize", 1000);
-				}
-				if (json.get("ColletorSpeed").getAsDouble() <= 0) {
-					json.addProperty("ColletorSpeed", 86400);
-				}
-				{
-					Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
-					try {
-						FileWriter fileWriter = new FileWriter(file);
-						fileWriter.write(mainGSONBuilderVariable.toJson(json));
-						fileWriter.close();
-					} catch (IOException exception) {
-						exception.printStackTrace();
-					}
-				}
-
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
+			ExodusModVariables.HoleSize = 200;
+			ExodusModVariables.HoleSpeed = 10000;
+			ExodusModVariables.CollectorSpeed = 84000;
 	}
 }

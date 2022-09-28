@@ -19,14 +19,6 @@ import net.exodus.ExodusMod;
 import java.util.Map;
 import java.util.HashMap;
 
-import java.io.IOException;
-import java.io.FileWriter;
-import java.io.FileReader;
-import java.io.File;
-import java.io.BufferedReader;
-
-import com.google.gson.GsonBuilder;
-import com.google.gson.Gson;
 
 public class WaitExploProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -60,27 +52,8 @@ public class WaitExploProcedure {
 				ExodusMod.LOGGER.warn("Failed to load dependency world for procedure Explo!");
 			return;
 		}
-		File file = new File("");
-		com.google.gson.JsonObject json = new com.google.gson.JsonObject();
-		file = (File) new File((FMLPaths.GAMEDIR.get().toString() + "/config"), File.separator + "complete.config");
-		double Rate = 1000;
-		double Sizemx = 200;
-		{
-			try {
-				BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-				StringBuilder jsonstringbuilder = new StringBuilder();
-				String line;
-				while ((line = bufferedReader.readLine()) != null) {
-					jsonstringbuilder.append(line);
-				}
-				bufferedReader.close();
-				json = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
-				Rate = json.get("BlackHoleSpeed").getAsDouble();
-				Sizemx = json.get("BlackHoleSize").getAsDouble();
-					} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
+		double Rate = ExodusModVariables.HoleSpeed;
+		double Sizemx = ExodusModVariables.HoleSize;
 		Entity entity = (Entity) dependencies.get("entity");
 		
 		entity.rotationYaw = (float) (0);

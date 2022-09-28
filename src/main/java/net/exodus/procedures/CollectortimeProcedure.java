@@ -49,7 +49,7 @@ public class CollectortimeProcedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		double Time = ExodusModVariables.MapVariables.get(world).CollectorSp;
+		double Time = ExodusModVariables.CollectorSpeed;
 		
 		if (!((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {

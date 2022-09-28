@@ -44,6 +44,10 @@ public class ExodusModVariables {
 		CapabilityManager.INSTANCE.register(PlayerVariables.class, new PlayerVariablesStorage(), PlayerVariables::new);
 	}
 
+	public static double HoleSize = 200.0;
+	public static double HoleSpeed = 10000.0;
+	public static double CollectorSpeed = 84000.0;
+
 	@SubscribeEvent
 	public void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
 		if (!event.getPlayer().world.isRemote()) {
@@ -109,7 +113,6 @@ public class ExodusModVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "exodus_mapvars";
 		public String items = "";
-		public double CollectorSp = 86400.0;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -122,13 +125,11 @@ public class ExodusModVariables {
 		@Override
 		public void read(CompoundNBT nbt) {
 			items = nbt.getString("items");
-			CollectorSp = nbt.getDouble("CollectorSp");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
 			nbt.putString("items", items);
-			nbt.putDouble("CollectorSp", CollectorSp);
 			return nbt;
 		}
 
